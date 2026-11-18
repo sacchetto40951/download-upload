@@ -1,0 +1,20 @@
+2026-11-17 21:54:52,035 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-11-17 21:54:52,036 - [33mPress CTRL+C to quit[0m
+2026-11-17 21:54:52,038 -  * Restarting with stat
+2026-11-17 21:54:52,876 -  * Debugger is active!
+2026-11-17 21:54:52,885 -  * Debugger PIN: 137-853-262
+2026-11-17 22:30:39,106 - Falha no upload: Nenhum arquivo enviado
+2026-11-17 22:30:39,108 - 127.0.0.1 - - [17/Nov/2026 22:30:39] "[31m[1mPOST /uploads/upload HTTP/1.1[0m" 400 -
+2026-11-17 22:31:46,267 - Falha no upload: Nenhum arquivo enviado
+2026-11-17 22:31:46,267 - 127.0.0.1 - - [17/Nov/2026 22:31:46] "[31m[1mPOST /uploads/upload HTTP/1.1[0m" 400 -
+2026-11-17 22:32:00,869 - Falha no upload: Nenhum arquivo enviado
+2026-11-17 22:32:00,869 - 127.0.0.1 - - [17/Nov/2026 22:32:00] "[31m[1mPOST /uploads/upload HTTP/1.1[0m" 400 -
+2026-11-17 22:32:11,724 - Falha no upload: Nenhum arquivo enviado
+2026-11-17 22:32:11,725 - 127.0.0.1 - - [17/Nov/2026 22:32:11] "[31m[1mPOST /uploads/upload HTTP/1.1[0m" 400 -
+2026-11-17 22:33:20,263 - Falha no upload: cão israelita.png - Tamanho excede 15 KB
+2026-11-17 22:33:20,264 - 127.0.0.1 - - [17/Nov/2026 22:33:20] "[31m[1mPOST /uploads/upload HTTP/1.1[0m" 400 -
+2026-11-17 22:38:03,476 - Upload bem-sucedido: documento_importante.txt | IP: 127.0.0.1
+2026-11-17 22:38:03,476 - 127.0.0.1 - - [17/Nov/2026 22:38:03] "POST /uploads/upload HTTP/1.1" 200 -
+2026-11-17 22:40:01,589 - 127.0.0.1 - - [17/Nov/2026 22:40:01] "[33mGET /downloads/documento_importante.txt HTTP/1.1[0m" 404 -
+2026-11-17 22:40:57,237 - 127.0.0.1 - - [17/Nov/2026 22:40:57] "GET /downloads/download/documento_importante.txt HTTP/1.1" 200 -
